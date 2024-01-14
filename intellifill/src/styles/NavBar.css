@@ -14,6 +14,11 @@
     color: #2d9fd9;
 }
 
+.NavBar_logo{
+    aspect-ratio: auto;
+    height: 50%;
+}
+
 .NavBar_ele{
     font-size: 25px;
     height: 100%;

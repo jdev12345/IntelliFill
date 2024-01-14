@@ -1,0 +1,13 @@
+{
+    "cards":[
+        {
+            "id":1,
+            "icon":"/cards/1.png",
+            "name":"JEE",
+            "org":"National Testing Agency",
+            "participants":"20 lakhs",
+            "fees":"1200",
+            "tags":["Engineering","IIT","PCM"]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+.rsis-container div{
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.Home{
+    width: 100vw;
+    
+}
+
+.Home .SeeAll{
+    position: absolute;
+    right: 0;
+    color: #2d9fd9;
+}
+
+.Home .Recommended_Exams{
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 5vh;
+  font-size: 23px;
+}
+
+.PlaceHolder{
+    font-weight: bold;
+}
+
+.Recommended_Exams .PlaceHolder{
+    position: relative;
+}
+
+.PlaceHolder div{
+    display: inline;
+}

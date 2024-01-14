@@ -5,7 +5,7 @@ import '../styles/NavBar.css'
 function NavBar() {
   return (
     <div className='NavBar'>
-        <div className='NavBar_icon NavBar_ele'>FormEase</div>
+        <div className='NavBar_icon NavBar_ele'><img className='NavBar_logo' src="/logo.png" alt="" srcset="" /></div>
         <div className='NavBar_link NavBar_ele NavBar_Home'>Home</div>
         <div className='NavBar_link NavBar_ele NavBar_Result'>Result</div>
         <div className='NavBar_link NavBar_ele NavBar_FAQ'>FAQ</div>
