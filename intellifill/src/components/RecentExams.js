@@ -38,7 +38,7 @@ function RecentExams() {
     <div className='Recommended_Exams'>
     <div className='PlaceHolder'>
       <div>Recent Exams</div>
-      <div className='SeeAll' onClick={()=>{SetShow(!show)}}>{!show?'See All':'Close All'}</div>
+      <div className='SeeAll' onClick={()=>{SetShow(!show)}}>{!show?'See All':'Close'}</div>
     </div>
     <div className='tag_list'>
         {tags.map((e,idx)=>{

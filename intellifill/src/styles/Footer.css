@@ -1,0 +1,39 @@
+.Footer{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 20px 10% 0 10%;
+    background-color: white;
+}
+
+.Footer .Socials, .Footer .Downloads{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Footer .Elements{
+    color: grey;
+    padding-top: 10%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Elements div{
+    margin-top: 20px;
+}
+
+.Footer .logo{
+    width: 50%;
+}
+
+.Footer .icons{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Footer .icon{
+    width: 15%;
+}

@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import SimpleImageSlider from "react-simple-image-slider";
 import '../styles/Home.css'
 import Card from '../components/Card';
+import Footer from '../components/Footer';
 import data from '../data/Recommeded.json'
 import { useState } from 'react';
 import RecentExams from '../components/RecentExams';
@@ -30,7 +31,7 @@ function Home() {
       <div className='Recommended_Exams'>
         <div className='PlaceHolder'>
           <div>Recommended Exams</div>
-          <div className='SeeAll' onClick={()=>{SetShow(!show)}}>{!show?'See All':'Close All'}</div>
+          <div className='SeeAll' onClick={()=>{SetShow(!show)}}>{!show?'See All':'Close'}</div>
         </div>
         <div className={show?'Cards ShowAll':'Cards'}>
             {data?.cards?.map((card)=>{
@@ -39,6 +40,7 @@ function Home() {
         </div>
       </div>
         <RecentExams/>
+        <Footer/>
     </div>
   )
 }
