@@ -1,6 +1,6 @@
 .Card{
     width: 20vw;
-    min-width: 400px;
+    min-width: 370px;
     border: 1px solid rgb(182, 182, 182);
     border-radius: 10px;
     padding: 16px 5px 20px 5px;
@@ -83,12 +83,14 @@
 
 .Card a{
     text-decoration: none;
+    color: #2d9fd9;
 }
 
 .Card .tags{
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
   white-space: nowrap;
-  height: 37px;
+  height: 40px;
   padding-top: 20px;
 }
 

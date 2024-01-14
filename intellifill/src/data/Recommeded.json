@@ -7,34 +7,34 @@
             "org":"National Testing Agency",
             "participants":"20 lakhs",
             "fees":"1200",
-            "tags":["Engineering","IIT","PCM"]
+            "tags":["Engineering","IIT","NIT","IIIT","PCM"]
         },
         {
             "id":2,
-            "icon":"/cards/JEE.png",
+            "icon":"/cards/civil.jpeg",
             "name":"Civil Services 2023",
             "org":"Union Public Service Commission",
             "participants":"15 lakhs",
-            "fees":"1200",
-            "tags":["Engineering","PCM"]
+            "fees":"1500",
+            "tags":["Humanities","Engineering","Comerse"]
         },
         {
             "id":3,
-            "icon":"/cards/JEE.png",
+            "icon":"/cards/ssc.png",
             "name":"SSC CGL 2023",
             "org":"Staff Selection Commission",
             "participants":"10 lakhs",
             "fees":"1000",
-            "tags":["Engineering","PCM"]
+            "tags":["Staff","PCM"]
         },
         {
             "id":4,
             "icon":"/cards/JEE.png",
-            "name":"SSC CGL 2023",
-            "org":"Staff Selection Commission",
-            "participants":"10 lakhs",
+            "name":"JEE Advance 2023",
+            "org":"National Testing Agency",
+            "participants":"1 lakhs",
             "fees":"1000",
-            "tags":["Engineering","PCM"]
+            "tags":["Engineering","PCM","IIT"]
         }
     ]
 }

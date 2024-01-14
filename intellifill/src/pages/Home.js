@@ -4,6 +4,8 @@ import SimpleImageSlider from "react-simple-image-slider";
 import '../styles/Home.css'
 import Card from '../components/Card';
 import data from '../data/Recommeded.json'
+import { useState } from 'react';
+import RecentExams from '../components/RecentExams';
 
 const images = [
   { url: "/SlideShow/1.png" },
@@ -13,7 +15,8 @@ const images = [
 
 
 function Home() {
-  return (
+    const [show,SetShow] = useState(false)
+    return (
     <div className='Home'>
         <NavBar/>
         <SimpleImageSlider
@@ -27,14 +30,15 @@ function Home() {
       <div className='Recommended_Exams'>
         <div className='PlaceHolder'>
           <div>Recommended Exams</div>
-          <div className='SeeAll'>See All</div>
+          <div className='SeeAll' onClick={()=>{SetShow(!show)}}>{!show?'See All':'Close All'}</div>
         </div>
-        <div className='Cards'>
+        <div className={show?'Cards ShowAll':'Cards'}>
             {data?.cards?.map((card)=>{
                 return <Card props={card}/>
             })}
         </div>
-        </div>
+      </div>
+        <RecentExams/>
     </div>
   )
 }
