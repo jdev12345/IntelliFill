@@ -33,3 +33,11 @@
 .PlaceHolder div{
     display: inline;
 }
+
+.Cards{
+    margin-top: 30px;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 30px;
+}
