@@ -1,0 +1,63 @@
+.NavBar{
+    /* background-color: blueviolet; */
+    height: 15vh;
+    width: 96vw;
+    padding-left: 4vw;
+    /* padding-right: 2vw; */
+    justify-content: space-evenly;
+    display: inline-flex;
+    border-bottom: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.NavBar_Home{
+    color: #2d9fd9;
+}
+
+.NavBar_ele{
+    font-size: 25px;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.NavBar_link:hover{
+    color: #2d9fd9;
+    cursor: pointer;
+}
+
+.NavBar_notif{
+    height: 25%;
+}
+
+.NavBar_search{
+    width: 20%;
+}
+
+.NavBar_search_input{
+    background-repeat: no-repeat;
+    background-position: 7px 10px;
+    padding-left: 30px;
+  background-size: 20px;
+    width: 100%;
+    height: 32%;
+  border-radius: 25px;
+  border: 2px solid #2d9fd9;
+}
+
+
+input,
+input::placeholder {
+    font-size: 16px;
+}
+
+input:focus{
+    outline: none;
+    border-width: 3px;
+}
+
+.NavBar_dp{
+    height: 50%;
+  border-radius: 50%;
+}
