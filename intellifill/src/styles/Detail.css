@@ -1,0 +1,138 @@
+.Detail{
+    padding: 40px 13% 40px 13%;
+}
+
+.Detail .back{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.Detail .back:hover{
+    cursor: pointer;
+}
+
+.Detail .info{
+    margin-right: 50px;
+}
+
+.Detail .Detail_card{
+    padding: 20px;
+    border-width: 1px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 7px;
+    padding-bottom: 0;
+    background-color: white;
+}
+
+.Detail .data{
+    padding: 20px;
+    padding-top: 0;
+    border-width: 1px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 7px;
+    background-color: white;
+}
+
+.Detail .data{
+    margin-top: 40px;
+}
+
+.Detail .data .dat{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.Detail .data .dat li{
+    margin-bottom: 10px;
+}
+
+.Detail .data .headings{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Detail .detail2{
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+}
+
+.Detail .top{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.Detail .detail_icon{
+    border-width: 1px;
+    border: 1px solid rgb(227, 227, 227);
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 7px;
+}
+
+.Detail .top .save_share{
+    position: absolute;
+    right: 0;
+}
+
+.Detail .top .save_share img{
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Detail .mid {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px rgb(182, 182, 182) solid;
+}
+.Detail .mid .date{
+    display: flex;
+    align-items: center;
+}
+.Detail .mid .date img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.Detail .bottom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+    color: rgb(169, 169, 169);
+}
+
+.Detail .bottom .apply{
+    position: absolute;
+    right: 15px;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;
+    background-color: #2d9fd9;
+    color: white;
+    top: -9px;
+    cursor: pointer;
+}
+
+.Detail .data .socials{
+    position: relative;
+    display: flex;
+}
+
+.Detail .data .socials img{
+    width: 40px;
+    cursor: pointer;
+}
+
+.Detail .data .socials .report{
+    position: absolute;
+    right: 0;
+    color: #2d9fd9;
+    font-size: 18px;
+    top: 5px;
+    cursor: pointer;
+}

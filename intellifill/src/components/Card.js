@@ -1,9 +1,8 @@
 import React from 'react'
 import '../styles/Card.css'
+import { Link } from "react-router-dom";
 
 function Card({props}) {
-    // console.log(props)
-    // console.log(props.name)
   return (
     <div className='Card'>
         <div className='top'>
@@ -39,7 +38,7 @@ function Card({props}) {
                 })}
             </div>
             <div className='viewDetail'>
-                <a href="http://" target="_blank" rel="noopener noreferrer">View Details  <div className='Arrow'>&gt;</div></a>
+                <Link to={`/detail/${props.id}`}>View Details  <div className='Arrow'>&gt;</div></Link>
             </div>
         </div>
     </div>

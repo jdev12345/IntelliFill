@@ -1,9 +1,7 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
 import SimpleImageSlider from "react-simple-image-slider";
 import '../styles/Home.css'
 import Card from '../components/Card';
-import Footer from '../components/Footer';
 import data from '../data/Recommeded.json'
 import { useState } from 'react';
 import RecentExams from '../components/RecentExams';
@@ -19,7 +17,6 @@ function Home() {
     const [show,SetShow] = useState(false)
     return (
     <div className='Home'>
-        <NavBar/>
         <SimpleImageSlider
         style={{borderRadius:`20px`,marginLeft:'10vw',marginTop:`5vh`}}
         width={`80vw`}
@@ -40,7 +37,6 @@ function Home() {
         </div>
       </div>
         <RecentExams/>
-        <Footer/>
     </div>
   )
 }
