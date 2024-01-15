@@ -1,23 +1,23 @@
-.Detail{
+.Detail {
     padding: 40px 13% 40px 13%;
 }
 
-.Detail .back{
+.Detail .back {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
     width: fit-content;
 }
 
-.Detail .back:hover{
+.Detail .back:hover {
     cursor: pointer;
 }
 
-.Detail .info{
+.Detail .info {
     margin-right: 50px;
 }
 
-.Detail .Detail_card{
+.Detail .Detail_card {
     padding: 20px;
     border-width: 1px;
     border: 1px solid rgb(227, 227, 227);
@@ -26,7 +26,7 @@
     background-color: white;
 }
 
-.Detail .data{
+.Detail .data {
     padding: 20px;
     padding-top: 0;
     border-width: 1px;
@@ -35,38 +35,38 @@
     background-color: white;
 }
 
-.Detail .data{
+.Detail .data {
     margin-top: 40px;
 }
 
-.Detail .data .dat{
+.Detail .data .dat {
     margin-left: 20px;
     font-size: 18px;
 }
 
-.Detail .data .dat li{
+.Detail .data .dat li {
     margin-bottom: 10px;
 }
 
-.Detail .data .headings{
+.Detail .data .headings {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.Detail .detail2{
+.Detail .detail2 {
     display: grid;
     grid-template-columns: 5fr 4fr;
 }
 
-.Detail .top{
+.Detail .top {
     width: 100%;
     display: flex;
     position: relative;
 }
 
-.Detail .detail_icon{
+.Detail .detail_icon {
     border-width: 1px;
     border: 1px solid rgb(227, 227, 227);
     height: 40px;
@@ -74,12 +74,12 @@
     border-radius: 7px;
 }
 
-.Detail .top .save_share{
+.Detail .top .save_share {
     position: absolute;
     right: 0;
 }
 
-.Detail .top .save_share img{
+.Detail .top .save_share img {
     height: 30px;
     margin-right: 10px;
     cursor: pointer;
@@ -90,24 +90,25 @@
     padding-bottom: 20px;
     border-bottom: 1px rgb(182, 182, 182) solid;
 }
-.Detail .mid .date{
+
+.Detail .mid .date {
     display: flex;
     align-items: center;
 }
-.Detail .mid .date img{
+
+.Detail .mid .date img {
     width: 40px;
     margin-right: 10px;
 }
 
-.Detail .bottom{
+.Detail .Detail_card .bottom {
     margin-top: 30px;
     margin-bottom: 30px;
-    display: flex;
     position: relative;
     color: rgb(169, 169, 169);
 }
 
-.Detail .bottom .apply{
+.Detail .bottom .apply {
     position: absolute;
     right: 15px;
     border-radius: 25px;
@@ -118,21 +119,88 @@
     cursor: pointer;
 }
 
-.Detail .data .socials{
+.Detail .data .socials {
     position: relative;
     display: flex;
 }
 
-.Detail .data .socials img{
+.Detail .data .socials img {
     width: 40px;
     cursor: pointer;
 }
 
-.Detail .data .socials .report{
+.Detail .data .socials .report {
     position: absolute;
     right: 0;
     color: #2d9fd9;
     font-size: 18px;
     top: 5px;
     cursor: pointer;
+}
+
+.Detail .interested {
+    height: fit-content;
+    padding: 20px;
+    border-width: 1px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 7px;
+    background-color: white;
+}
+
+.Detail .interested .heading {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.Detail .interested .top {
+    align-items: center;
+}
+
+.Detail .interested .Participants,
+.Detail .interested .fees {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.Detail .interested .top .org {
+    color: rgb(182, 182, 182);
+}
+
+.Detail .interested .bottom {
+    color: rgb(182, 182, 182);
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px rgb(227, 227, 227) solid;
+    margin-bottom: 20px;
+}
+
+.Detail .interested .top .icon {
+    margin-right: 20px;
+}
+
+.Detail .top .icon {
+    width: auto;
+}
+
+.Detail .interested .viewAll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Detail .interested .viewAll div{
+    border-radius: 20px;
+    border: 1px #2d9fd9 solid;
+    padding: 10px;
+    color: #2d9fd9;
+    font-size: 20px;
+}
+
+.Detail .viewDetail a {
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    color: #2d9fd9;
 }

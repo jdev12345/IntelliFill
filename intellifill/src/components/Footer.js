@@ -61,7 +61,7 @@ function Footer() {
             </div>
         </div>
         <div className='Downloads'>
-            <img src="/pngegg.png" alt="" width={`100%`}/>
+            <img src="/pngegg.png" alt="" width={`70%`}/>
         </div>
     </div>
   )

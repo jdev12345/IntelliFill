@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/NavBar.css'
 // import dp from './dp.jpeg'
 
@@ -6,7 +7,7 @@ function NavBar() {
   return (
     <div className='NavBar'>
         <div className='NavBar_icon NavBar_ele'><img className='NavBar_logo' src="/logo.png" alt="" srcset="" /></div>
-        <div className='NavBar_link NavBar_ele NavBar_Home'>Home</div>
+        <Link to={'/'} className='NavBar_link NavBar_ele NavBar_Home'>Home</Link>
         <div className='NavBar_link NavBar_ele NavBar_Result'>Result</div>
         <div className='NavBar_link NavBar_ele NavBar_FAQ'>FAQ</div>
         <div className='NavBar_link NavBar_ele NavBar_AboutUs'>About Us</div>
