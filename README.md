@@ -27,9 +27,6 @@ git merge upstream/master
 Application has very few dependencies, so it’s most probably very easy to understand when you scan through the code, but there is at least few steps you should know
 
 ### Start front-end React application
-Application is divided into two parts. One is pure React front-end, powered by `webpack-dev-server` in development mode.
-
-To start this application run command below and open your app on `http://localhost:8080`
 
 ```javascript
 cd intellifill
